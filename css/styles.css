@@ -41,11 +41,21 @@
 }
 
 .content {
-    font-family: 'Quicksand', sans-serif; 
-    font-size: 20px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 25px;
     margin-bottom: 5%;
     margin-top: 3%;
     color: #1c3360;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.subContent {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px !important;
+  color: white !important;
+  text-align: center;
+  font-style: normal !important;
 }
 
 
