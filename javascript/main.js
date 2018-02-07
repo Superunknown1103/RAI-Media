@@ -1,3 +1,7 @@
+function switchFrame() {
+    $('.iframe' ).attr('src', '');
+}
+
 $( document ).ready(function() {
-alert('works');
+    // setTimeout(switchFrame(), 2000);
 });
