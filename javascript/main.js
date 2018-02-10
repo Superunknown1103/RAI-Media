@@ -1,7 +1,13 @@
-function switchFrame() {
-    $('.iframe' ).attr('src', '');
-}
-
-$( document ).ready(function() {
-    // setTimeout(switchFrame(), 2000);
-});
+   $(function(){
+        
+            
+            $('.slider3').mobilyslider({
+                transition: 'fade',
+                animationSpeed: 2000,
+                autoplaySpeed:4500,
+                bullets: true,
+                arrowsHide: false
+            });
+            
+            
+        });

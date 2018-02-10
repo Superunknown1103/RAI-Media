@@ -14,23 +14,6 @@
     text-transform: uppercase;
 }
 
-.titleF {
-  font-family: 'Fredericka the Great', cursive;
-  font-size: 30px;
-  text-transform: uppercase;
-  background-color: #EEDCDC;
-  color: black !important;
-  margin-top: 2%;
-}
-.specialpic {
-    height: 250px;
-}
-
-.fontsize2 {
-    font-size: 15px;
-    padding: 10px;
-}
-
 .info {
     font-family: 'Quicksand', sans-serif; 
 }
@@ -50,28 +33,6 @@
     padding-top: 10px;
 }
 
-.subContent {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 18px !important;
-  color: white !important;
-  text-align: center;
-  font-style: normal !important;
-}
-
-
-.contentF {
-    font-family: 'Quicksand', sans-serif; 
-    font-size: 20px;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    padding: -10%;
-    color: black;
-}
-
-.faillingwaterimg {
-  min-width: 700px !important;
-}
-
   #myNavbar {
     font-family: 'Bree Serif', serif;
   }
@@ -79,11 +40,6 @@
   body {
       background-color: black;
       color: #1c3360;
-  }
-  .navbar-brand {
-    float: left;
-    padding: 0 15px 5px;
-    min-height: 55px;
   }
 
   .logoimg {
@@ -95,60 +51,23 @@
   .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus,   
     .navbar-inverse .navbar-nav .active a:hover {
     color: white;
-    background-color: #e96363;
   }
 
   .navbar-right {
-    font-family: 'Bree Serif', serif;
-  }
-
-  .slider {
-    width: 100%;
-  }
-  .navbar-inverse .navbar-nav li a {
-    color: #1c3360;
-  }
-  .carousel-caption {
-    top: 50%;
-    transform: translateY(-50%);
-    text-transform: uppercase;
-    font-family: 'Fredericka the Great', cursive;
-    bottom: 20%;
-  }
-
-  .fallingwaterbody {
-    background-color: #EEDCDC;
-  }
-
-  .gallery {
-    background-color: #E98463;
-    margin-bottom: 2%;
-  }
-  
-  .primary {
-    height: 50vh;
-    width: 40vw;
-  }
-  .btn {
-    font-size: 18px;
+    font-family: 'Exo', sans-serif;
+    font-style: italic;
+    font-size: 25px;
     color: white;
-    background-color: #e96363;
-    padding: 12px 22px;
-    border: 2px solid #FFF;
   }
 
-  .inbtn {
-      color: white !important;
+  .navbar-inverse .navbar-nav li a {
+    color: white;
   }
+
 
   .btn:hover {
     color: black;
     border: 2px solid black;
-  }
-
-  .pic3 {
-    height: 160px;
-    width: 500px;
   }
 
   .footerfont {
@@ -164,97 +83,6 @@
     border: 2px solid purple;
     color: white;
 
-  }
-
-  .footerF {
-      position: relative;
-      bottom: 0;
-      width: 100%;
-      height: 100px;
-      background-color: #CD8E32 !important; 
-      color: white;
-  }
-
-  .fa {
-    margin-top: 20px;
-    padding: 10px !important;
-    font-size: 30px;
-    color: white;
-  }
-
-  .fa:hover {
-    color: #d5d5d5;
-    text-decoration: none;
-  }
-
-  .footer-icon {
-    max-width: 100px;
-    max-height: 100px;
-  }
-
-  /* mobile version */
-
-  @media (max-width: 900px) {
-    .fa {
-      font-size: 20px;
-      padding: 10px;
-    }
-  }
-  @media (max-width: 600px) {
-    .carousel-caption {
-      display: none;
-    }
-  }
-
-  #icon {
-    max-width: 250px;
-  }
-
-  #icon2 {
-    max-width: 95%;
-    border: 3px black solid;
-    position: relative;
-    width:  350x;
-    height: 350px;
-    background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
-  }
-
-  #icon3 {
-    max-width: 95%;
-    border: 3px black solid;
-    position: relative;
-    width:  740px;
-    height: 350px;
-    background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
-  }
-
-  #icon4 {
-    max-width: 95%;
-    border: 3px black solid;
-    position: relative;
-    width:  500px;
-    height: 550px;
-    background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
-  }
-
-  #icon5 {
-    max-width: 95%;
-    border: 3px black solid;
-    position: relative;
-    width:  500px;
-    height: 275px;
-    background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
-  }
-  h2 {
-    font-size: 1.7em;
   }
 
 .videoHolder {
