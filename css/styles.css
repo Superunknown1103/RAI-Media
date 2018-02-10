@@ -1,7 +1,12 @@
+body {
+  background: #000000;  /* fallback for old browsers */
+  background-image: linear-gradient(to bottom, #000000, #131111, #1f1c1c, #2a2626, #373131);
+}
+
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
-    background-color: black;
+    background-color: transparent;
     color: #FFFFFF;
     padding: 1% 0;
     font-size: 1.2em;
@@ -24,28 +29,32 @@
 }
 
 .content {
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 25px;
     margin-bottom: 5%;
     margin-top: 3%;
-    color: #1c3360;
     text-align: center;
-    padding-top: 10px;
+}
+
+.contentText {
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+
+.subContent {
+  font-size: 24px;
+  color: #FDC575 !important;
+  font-family: 'Lato', sans-serif;
 }
 
   #myNavbar {
     font-family: 'Bree Serif', serif;
   }
 
-  body {
-      background-color: black;
-      color: #1c3360;
-  }
-
   .logoimg {
-    height: 60px;
-    width: 60px;
-    bottom: 10px;
+    height: 120px;
+    width: 270px;
+    bottom: 30px;
   }
 
   .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus,   
@@ -106,3 +115,59 @@ height: 100%;
 -moz-border-radius: 15px !important;
 border-radius: 15px !important; */
 }
+
+.subTitle {
+  font-style: italic;
+  font-family: 'Lato', sans-serif;
+  font-size: 36px;
+  color: white;
+}
+
+.border1 {
+  text-align: center;
+  color: orange;
+  font-family: 'Lato', sans-serif;
+}
+
+.navitem:hover {
+  font-size: 30px;
+  background-image: linear-gradient(to bottom, #000000, #131111, #1f1c1c, #2a2626, #373131);
+  color: white;
+  text-decoration: underline;
+  position: relative;
+}
+
+
+/* Icons */
+
+.btn-floating {
+    border-radius: 100%;
+    font-size: 20px;
+}
+
+.btn-fb {
+  color: white;
+  background-color: #00006D;
+}
+
+.btn-tw {
+  color: white;
+  background-color: #1DA1F2;
+}
+
+.btn-gplus {
+  color: white;
+  background-color: #DC4A38;
+  padding: 6px !important;
+}
+
+.btn-li {
+  color: white;
+  background-color: #0177B4;
+}
+
+.list-inline {
+  margin-bottom: 20px;
+  margin-top: -30px;
+}
+/* End Icons */
